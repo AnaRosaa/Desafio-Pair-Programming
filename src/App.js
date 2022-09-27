@@ -1,6 +1,8 @@
 import React from "react";
 import { GlobalStyle } from "./Global/style.js";
 import Header from "./Components/Header/header.jsx";
+import Main from "./Components/Main/main.jsx";
+import MainTwo from './Components/MainTwo/maintwo'
 import Footer from "./Components/Footer/footer.jsx";
 
 export default function App() {
@@ -8,6 +10,8 @@ export default function App() {
     <>
       <GlobalStyle />
       <Header />
+      <Main />
+      <MainTwo />
       <Footer />
     </>
   );
