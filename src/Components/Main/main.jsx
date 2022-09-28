@@ -1,8 +1,8 @@
 import React from "react";
-import * as S from "./mainstyler";
-import Bolo from "./Img/Bolo.png";
-import Pizza from "./Img/pizza.png";
-import Copo from "./Img/Copo.png";
+import * as S from "./mainstyled";
+import Bolo from "../Img/Bolo.png";
+import Pizza from "../Img/pizza.png";
+import Copo from "../Img/Copo.png";
 
 
 export default function App() {
@@ -33,7 +33,7 @@ export default function App() {
             <S.H2Four>Peanut Smoothie</S.H2Four>
           </S.DivFour>
         </S.Section>
-      </S.Container>
+     </S.Container>
     </>
   );
 }
