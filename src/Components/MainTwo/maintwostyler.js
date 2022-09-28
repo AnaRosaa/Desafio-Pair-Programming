@@ -18,7 +18,7 @@ export const SectionTwo = styled.section`
 `;
 
 export const Figure = styled.figure`
-  width: 50vw;
+  width: 51vw;
   margin-top:3vh;
   display: flex;
   background-color: #f2f4f1;
