@@ -7,6 +7,7 @@ export default function App() {
     <>
       <S.Container>
         <S.GlobalStyle />
+        <S.SectionTwo>
         <S.Figure>
           <S.Img src={Colher} alt="colher" />
         </S.Figure>
@@ -25,6 +26,15 @@ export default function App() {
             vestibulum nisl ante, et ultricies sapien facilisis aliquam.
           </S.P>
         </S.Div>
+        </S.SectionTwo>
+        <S.Subscribe>
+          <h2>SUBSCRIBE</h2>
+          <p>Sign up for newsletter</p>
+          <S.Email>
+            <input type="text" placeholder="Your Email" />
+            <button>SUBMIT</button>
+          </S.Email>
+        </S.Subscribe>
       </S.Container>
     </>
   );

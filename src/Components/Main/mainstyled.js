@@ -32,6 +32,7 @@ export const ButtonOne = styled.button`
   border-color: #373737;
   width: 6vw;
 `;
+
 export const FigureOne = styled.figure`
   width: 100%;
   display: flex;

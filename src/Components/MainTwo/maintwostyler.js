@@ -13,10 +13,14 @@ export const Container = styled.section`
   background-color: #f2f4f1;
   display: flex;
 `;
+export const SectionTwo = styled.section`
+  display:flex;
+`;
+
 export const Figure = styled.figure`
   width: 50vw;
+  margin-top:3vh;
   display: flex;
-  margin-top: 2vh;
   background-color: #f2f4f1;
   @media (max-width: 950px) {
     width: 50%;
@@ -65,5 +69,39 @@ export const P = styled.p`
     width: 50vw;
     height: 19vh;
     font-size: 12px;
+  }
+`;
+export const Subscribe = styled.section`
+  background-color: #dfe4de;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #373737;
+  padding: 10%;
+  h2 {
+    letter-spacing: 4.2px;
+  }
+  p {
+    font-size: 1.5rem;
+    letter-spacing: 2.05px;
+  }
+`;
+export const Email = styled.form`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  input {
+    background-color: #eff1ee;
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-top: 3%;
+    padding: 10px;
+  }
+  button {
+    margin-top: 3%;
+    width: 140px;
+    height: 60px;
+    background-color: #dfe4de;
+    cursor: pointer;
   }
 `;

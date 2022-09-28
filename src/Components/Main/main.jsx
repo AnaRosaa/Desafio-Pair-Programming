@@ -4,7 +4,6 @@ import Bolo from "../img/bolo.png";
 import Pizza from "../img/pizza.png";
 import Copo from "../img/copo.png";
 
-
 export default function App() {
   return (
     <>
@@ -33,7 +32,7 @@ export default function App() {
             <S.H2Four>Peanut Smoothie</S.H2Four>
           </S.DivFour>
         </S.Section>
-      </S.Container>
+     </S.Container>
     </>
   );
 }
