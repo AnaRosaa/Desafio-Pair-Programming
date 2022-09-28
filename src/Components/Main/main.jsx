@@ -1,9 +1,8 @@
 import React from "react";
-import * as S from "./mainstyled";
-import Bolo from "../Img/Bolo.png";
-import Pizza from "../Img/pizza.png";
-import Copo from "../Img/Copo.png";
-
+import * as S from "./mainstyled.js";
+import Bolo from "../img/bolo.png";
+import Pizza from "../img/pizza.png";
+import Copo from "../img/copo.png";
 
 export default function App() {
   return (
