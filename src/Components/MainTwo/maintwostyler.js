@@ -71,7 +71,7 @@ export const P = styled.p`
     font-size: 12px;
   }
 `;
-export const Subscribe = styled.section`
+export const SectionThree = styled.section`
   background-color: #dfe4de;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -85,7 +85,7 @@ export const Subscribe = styled.section`
     letter-spacing: 2.05px;
   }
 `;
-export const Email = styled.form`
+export const BoxOne = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
